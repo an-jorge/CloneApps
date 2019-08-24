@@ -1,3 +1,2 @@
 # iOSApps
-Cloning app space
-When I learn or have idea about exist app I made it here 😎
+app cloning space. when I learn or have an idea about an app that already exists I create it here 😎
