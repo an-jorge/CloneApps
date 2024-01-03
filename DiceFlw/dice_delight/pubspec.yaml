@@ -63,10 +63,10 @@ flutter:
         - asset: assets/fonts/Roboto-Regular.ttf
         - asset: assets/fonts/Roboto-Light.ttf
         - asset: assets/fonts/Roboto-Bold.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
+    #         style: italic
+    - family: RubikGlitch
+      fonts:
+        - asset: assets/fonts/RubikGlitch-Regular.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
   #         weight: 700
   #
