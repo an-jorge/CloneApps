@@ -1,5 +1,7 @@
+import 'package:dice_delight/strings.dart';
 import 'package:flutter/material.dart';
 import 'dart:math';
+import 'package:assets_audio_player/assets_audio_player.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -9,13 +11,22 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  var leftDice = 1;
-  var rightDice = 1;
+  int left = 1;
+  int right = 1;
 
-  void updateDiceFaces() {
+  void rollDices() {
     setState(() {
-      leftDice = Random().nextInt(6) + 1;
-      rightDice = Random().nextInt(6) + 1;
+      left = Random().nextInt(6) + 1;
+      right = Random().nextInt(6) + 1;
+    });
+  }
+
+  void soundTrack(String audioPath) {
+    setState(() {
+      final assetsAudioPlayer = AssetsAudioPlayer();
+      assetsAudioPlayer.open(
+        Audio(audioPath),
+      );
     });
   }
 
@@ -36,17 +47,19 @@ class _HomeState extends State<Home> {
             Expanded(
               child: TextButton(
                 onPressed: () {
-                  updateDiceFaces();
+                  rollDices();
+                  soundTrack(rollTrack);
                 },
-                child: Image.asset('assets/images/dice-1.png'),
+                child: Image.asset('$imagePath-$left.png'),
               ),
             ),
             Expanded(
               child: TextButton(
                 onPressed: () {
-                  updateDiceFaces();
+                  rollDices();
+                  soundTrack(rollTrack);
                 },
-                child: Image.asset('assets/images/dice-2.png'),
+                child: Image.asset('$imagePath-$right.png'),
               ),
             ),
           ],
