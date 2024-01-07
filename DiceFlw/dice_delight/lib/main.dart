@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Dice Delight',
-      theme: ThemeData(useMaterial3: true, fontFamily: 'RubikGlitch'),
+      theme: ThemeData(useMaterial3: true, fontFamily: 'Roboto'),
       darkTheme: ThemeData.dark(),
       home: const Home(),
     );
