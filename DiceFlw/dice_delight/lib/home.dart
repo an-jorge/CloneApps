@@ -38,7 +38,7 @@ class _HomeState extends State<Home> {
         title: const Text(
           'Dice Delight',
           style: TextStyle(
-              color: Colors.white, fontSize: 20.0, fontWeight: FontWeight.w200),
+              color: Colors.white, fontSize: 20.0, fontWeight: FontWeight.w700),
         ),
       ),
       body: Center(
