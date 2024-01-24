@@ -17,17 +17,20 @@ Welcome to the "Clone and Improve Apps" space! Here, I explore existing applicat
 ## Projects
 
 ### Dice Flutter
-
 Dice Project from Angela Yu's Udemy course
 
+<img src="https://github.com/an-jorge/growUp/assets/10496881/6774b372-db3e-4f0d-af2e-af0a94135e78" width="250"/>
 - **Original App:** [[Link to Original App](https://github.com/londonappbrewery/dicee-flutter)]
-- **Improved Features:**
+  
+- **Additional features:**
   - Fonts
   - Sounds
   - Images
 - **Technologies Used:**
-  - Technology 1
-  - Technology 2
+  - Dart
+  - Flutter
+  - Google Fonts
+  - Package: assets_audio_player
 
 ...
 
@@ -38,7 +41,7 @@ Dice Project from Angela Yu's Udemy course
 Description of the project. A brief overview of the existing app and the improvements made.
 
 - **Original App:** [Link to Original App]
-- **Improved Features:**
+- **Additional features:**
   - Feature 1
   - Feature 2
 - **Technologies Used:**
