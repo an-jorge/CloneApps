@@ -3,10 +3,16 @@
 Welcome to the "Clone and Improve Apps" space! Here, I explore existing applications, learn from them, and implement improvements or modifications. This repository serves as a creative playground for honing my development skills and experimenting with new ideas.
 
 ## Table of Contents
-- [Projects](#projects)
-- [Goals](#goals)
-- [How to Contribute](#how-to-contribute)
-- [License](#license)
+
+- [Clone and Improve Apps 🚀](#clone-and-improve-apps-)
+  - [Table of Contents](#table-of-contents)
+  - [Projects](#projects)
+    - [Dice Flutter](#dice-flutter)
+    - [\[Another Project\]](#another-project)
+    - [\[Project Name\]](#project-name)
+  - [Goals](#goals)
+  - [How to Contribute](#how-to-contribute)
+  - [License](#license)
 
 ## Projects
 
@@ -14,8 +20,6 @@ Welcome to the "Clone and Improve Apps" space! Here, I explore existing applicat
 Dice Project from Angela Yu's Udemy course
 
 <img src="https://github.com/an-jorge/growUp/assets/10496881/6774b372-db3e-4f0d-af2e-af0a94135e78" width="250"/>
-
-
 - **Original App:** [[Link to Original App](https://github.com/londonappbrewery/dicee-flutter)]
   
 - **Additional features:**
@@ -33,6 +37,7 @@ Dice Project from Angela Yu's Udemy course
 ### [Another Project]
 
 ### [Project Name]
+
 Description of the project. A brief overview of the existing app and the improvements made.
 
 - **Original App:** [Link to Original App]
